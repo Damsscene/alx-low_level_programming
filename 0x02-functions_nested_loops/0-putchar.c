@@ -1,6 +1,5 @@
 #include <stdio.h>
 /**
- *
  * main - Entry point of the program
  *
  * Return: 0 to indicate successful execution
