@@ -9,12 +9,15 @@
  */
 unsigned int _strspn(char *s, char *accept)
 {
-	unsigned int length = 0; // Initialize length to 0
+	unsigned int length;
+	length = 0;
 
 	while (*s)
 	{
-		char *a = accept; // Reset the accept pointer for each character in s
-		int match = 0; // Flag to check if a character from s is found in accept
+		char *a;
+		*a = accept;
+		int match;
+		match = 0;
 
 		while (*a)
 		{
